@@ -125,3 +125,50 @@ a {
 }
 
 /* header styling goes here */
+header { background-color: #fff; }
+
+h1 {
+  margin-top: 34px;
+  display: inline-block;
+  text-align: left;
+}
+
+h1 a { text-indent: -9999px; }
+h1 img { float: right; }
+
+.header-menu {
+  float: right;
+  text-align: right;
+}
+
+.header-menu li {
+  display: inline-block;
+  margin-left: 26px;
+}
+
+nav,
+.login { display: inline-block; }
+
+nav ul::after {
+  content: '';
+  width: 1px;
+  height: 20px;
+  margin-left: 26px;
+  display: inline-block;
+  background-color: #000;
+  vertical-align: text-top;
+}
+
+.header-menu li a {
+  font-size: 11px;
+  letter-spacing: .07px;
+  color: #0e0e0e;
+  font-weight: bold;
+  padding: 39px 0 24px;
+  border-top: 7px solid transparent;
+}
+
+.header-menu li a:hover {
+  color: #bcb1b0;
+  border-top: 7px solid #bcb1b0;
+}
