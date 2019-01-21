@@ -172,3 +172,140 @@ nav ul::after {
   color: #bcb1b0;
   border-top: 7px solid #bcb1b0;
 }
+
+/* banner styling goes here */
+.banner {
+  position: relative;
+}
+
+.banner .wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.slides li {
+  position: relative;
+}
+
+.banner-content {
+  width: 86.5%;
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  top: 197px;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.banner-content h2 {
+  width: 100%;
+  padding: 50px 5%;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, .4);
+  font-size: 33px;
+  color: #060101;
+}
+
+.banner-content a {
+  padding: 21px 60px;
+  border: 2px solid #000;
+  margin-top: 37px;
+  background-color: #fff;
+  color: #000;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.banner-content a:hover {
+  background-color: #000;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.next,
+.prev {
+  padding: 20px 20px;
+  position: absolute;
+  top: 50%;
+  background-color: #000;
+  transform: translateY(-50%);
+  transition: all .6s;
+}
+
+.next { right: 0; }
+.prev { left: 0; }
+
+.next:hover,
+.prev:hover {
+  color: White;
+  cursor: pointer;
+}
+
+/* brands styling goes here */
+.brands {
+  padding: 38px 0;
+}
+
+.brands .mainlogo {
+  width: 63.75%;
+  margin: 0 auto;
+}
+
+.brands p {
+  width: 80%;
+  margin: 42px auto 0;
+  color: #909090;
+  font-size: 17px;
+  text-align: center;
+}
+
+.brands ul {
+  margin-top: 96px;
+}
+
+.brands ul li {
+  width: 31.8%;
+  border: 2px solid black;
+  margin-right: calc(2.3% - 5px);
+  background-color: #fff;
+  display: inline-block;
+  text-align: center;
+}
+
+.brands ul li:last-child {
+  margin-right: 0;
+}
+
+.brands ul li.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.brands ul li span {
+  padding: 20px 40px;
+  cursor: pointer;
+  display: block;
+  text-transform: uppercase;
+  transition: all .3s;
+}
+
+.filter-content {
+  margin-top: 65px;
+}
+
+.filter-content > div {
+  width: 30%;
+  padding: 35px;
+  border: 1px solid black;
+  display: inline-block;
+  text-align: center;
+}
+
+.filter-content div nth-child(3n) {
+  margin-right: calc(5% - 5px);
+}
+
+.filter-content > div > picture {
+  width: 60%;
+  margin: 0 auto;
+}
