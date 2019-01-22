@@ -243,7 +243,7 @@ nav ul::after {
 
 /* brands styling goes here */
 .brands {
-  padding: 38px 0;
+  padding: 38px 0 83px 0;
 }
 
 .brands .mainlogo {
@@ -296,15 +296,15 @@ nav ul::after {
 .filter-content > div {
   width: 31.8%;
   padding: 35px;
-  border: 1px solid black;
   margin: 24px calc(2.3% - 5px) 0 0;
+  border: 1px solid black;
   display: inline-block;
   text-align: center;
   vertical-align: top;
 }
 
-.filter-content > div:nth-child(3n) {
-  margin-right: 0;
+.filter-content div:nth-child(3n) {
+  margin-right: 0
 }
 
 .filter-content > div > figure {
@@ -314,17 +314,40 @@ nav ul::after {
 
 .filter-content > div p {
   margin-top: 20px;
-  color: #474747;
-  font-size: 13px;
-  font-weight: bold;
+  font-size: 14px;
   line-height: 18px;
+  color: #3b3b3b;
+  font-weight: bold;
 }
 
 .filter-content > div a {
-  margin-top: 31px;
+  margin-top: 30px;
 }
 
 /* footer styling goes here */
-/* footer li {
+footer {
+  padding: 38px 0;
+  text-align: center;
+}
+
+footer ul li {
   display: inline-block;
-} */
+}
+
+footer a {
+  padding: 0 10px;
+  border-right: 1px solid black;
+  color: #575757;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+footer ul li:last-child a {
+  border-right: none;
+}
+
+footer span {
+  color: #575757;
+  font-size: 11px;
+  font-weight: bold;
+}
