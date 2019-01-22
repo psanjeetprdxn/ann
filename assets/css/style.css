@@ -323,3 +323,8 @@ nav ul::after {
 .filter-content > div a {
   margin-top: 31px;
 }
+
+/* footer styling goes here */
+/* footer li {
+  display: inline-block;
+} */
