@@ -251,7 +251,7 @@ nav ul::after {
   margin: 0 auto;
 }
 
-.brands p {
+.brands > p {
   width: 80%;
   margin: 42px auto 0;
   color: #909090;
@@ -290,22 +290,36 @@ nav ul::after {
 }
 
 .filter-content {
-  margin-top: 65px;
+  margin-top: 41px;
 }
 
 .filter-content > div {
-  width: 30%;
+  width: 31.8%;
   padding: 35px;
   border: 1px solid black;
+  margin: 24px calc(2.3% - 5px) 0 0;
   display: inline-block;
   text-align: center;
+  vertical-align: top;
 }
 
-.filter-content div nth-child(3n) {
-  margin-right: calc(5% - 5px);
+.filter-content > div:nth-child(3n) {
+  margin-right: 0;
 }
 
-.filter-content > div > picture {
+.filter-content > div > figure {
   width: 60%;
   margin: 0 auto;
+}
+
+.filter-content > div p {
+  margin-top: 20px;
+  color: #474747;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 18px;
+}
+
+.filter-content > div a {
+  margin-top: 31px;
 }
